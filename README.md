@@ -60,7 +60,13 @@ python3 -m streamlit run app.py
 
 ### 課題 1：文字を変更する
 
-`app.py` のタイトルやメッセージを好きな内容へ変更し、コミットしてみましょう。
+練習用の `exercise_1_text_change.py` を開き、`page_title` と `welcome_message` を好きな内容へ変更してコミットしてみましょう。
+
+次のコマンドで練習用アプリを起動できます。
+
+```bash
+streamlit run exercise_1_text_change.py
+```
 
 ### 課題 2：機能を追加して Pull Request を作る
 
@@ -96,6 +102,7 @@ streamlit run exercise_3_conflict_practice.py
 ├── .gitignore
 ├── README.md
 ├── app.py
+├── exercise_1_text_change.py
 ├── exercise_2_feature_example.py
 ├── exercise_3_conflict_practice.py
 └── requirements.txt
