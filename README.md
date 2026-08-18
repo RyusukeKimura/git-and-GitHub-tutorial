@@ -78,23 +78,6 @@ streamlit run exercise_1_text_change.py
 streamlit run exercise_2_feature_example.py
 ```
 
-### 課題 3：コンフリクトを体験する
-
-練習用の `exercise_3_conflict_practice.py` を使います。
-
-1. 1つ目のブランチを作り、`conflict_message` の文字を変更してコミットする
-2. 元のブランチから2つ目のブランチを作り、同じ `conflict_message` を別の文字へ変更してコミットする
-3. 一方のブランチをマージした後、もう一方をマージしてコンフリクトを発生させる
-4. 残したい内容へ修正し、コンフリクトを解消してコミットする
-
-次のコマンドで練習用アプリを起動できます。
-
-```bash
-streamlit run exercise_3_conflict_practice.py
-```
-
-> コンフリクト練習は、講師の案内に従い、練習用ブランチで行ってください。
-
 ## 📁 ファイル構成
 
 ```text
@@ -104,7 +87,6 @@ streamlit run exercise_3_conflict_practice.py
 ├── app.py
 ├── exercise_1_text_change.py
 ├── exercise_2_feature_example.py
-├── exercise_3_conflict_practice.py
 └── requirements.txt
 ```
 
