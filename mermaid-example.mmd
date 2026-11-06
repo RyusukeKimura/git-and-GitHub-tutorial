@@ -1,0 +1,10 @@
+graph TD
+    A[起床] --> B{天気は？}
+    B -- 晴れ --> C[散歩する]
+    B -- 雨 --> D[読書する]
+    C --> E[朝食を食べる]
+    D --> E
+    E --> F[仕事開始]
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style F fill:#bbf,stroke:#333,stroke-width:2px
